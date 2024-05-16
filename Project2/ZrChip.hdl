@@ -1,0 +1,14 @@
+CHIP ZrChip {
+    IN  
+        outIntermediate[16];
+    OUT 
+        out;
+
+    PARTS:
+    //// Replace this comment with your code.
+    Or8Way(in = outIntermediate[0..7], out = orLow);
+    Or8Way(in = outIntermediate[8..15], out = orHigh);
+    Or(a = orLow, b = orHigh, out = orAll);
+    Not(in = orAll, out = out);
+
+}

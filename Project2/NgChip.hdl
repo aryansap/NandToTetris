@@ -1,0 +1,11 @@
+CHIP NgChip {
+    IN  
+        outIntermediate[16];
+    OUT 
+        out;
+
+    PARTS:
+    //// Replace this comment with your code.
+    Mux(a = false, b = true, sel = outIntermediate[15], out = out);
+
+}
