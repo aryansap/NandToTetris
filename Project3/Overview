@@ -1,0 +1,1 @@
+In this project I create the main memory units starting from a given DFlipFlop. I've created a 1 and 16 bit register, and from there I have created up until a 16K Ram unit that takes in a load bit as well as a 14 bit address and a 16 bit in inputs, and a 16 bit output. 
