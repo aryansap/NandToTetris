@@ -1,0 +1,1 @@
+In this project I created a Computer which follows a simplified harvard architecture. I used many logic and memory chips along with an ALU to create a CPU and a Memory chip that ultimately got put together to create a fully functional computer through HDL. 
