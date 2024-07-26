@@ -1,0 +1,1 @@
+In this project, I used C++ to parse through a a file written in the hack assembly language and then seperate each command into either an A instruction or C instruction and handle each one accordingly. The end result of this program will be an output file with the name Xxx.hack where Xxx is the name of the original asm file. 
