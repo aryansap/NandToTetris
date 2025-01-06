@@ -1,0 +1,1 @@
+In this project I implemented part one of the VM translator we will use to compile the jack language into hack assembly. This translator will take arithmatic, logical, and push/pop operations and realize these stack machine commands into Hack assembly. 
